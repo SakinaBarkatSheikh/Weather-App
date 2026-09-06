@@ -1,0 +1,58 @@
+/* ========================================
+   CURRENT WEATHER ICON
+======================================== */
+
+.weather-icon {
+    width: 135px;
+
+    height: 135px;
+
+    object-fit: contain;
+
+    display: block;
+
+    margin: 5px auto;
+
+    filter:
+        drop-shadow(
+            0 5px 8px
+            rgba(0, 0, 0, 0.12)
+        );
+
+    transition:
+        transform 0.3s ease;
+}
+
+.weather-icon:hover {
+    transform: scale(1.08);
+}
+
+
+/* ========================================
+   FORECAST ICON
+======================================== */
+
+.forecast-icon {
+    width: 75px;
+
+    height: 75px;
+
+    object-fit: contain;
+
+    display: block;
+
+    margin: 5px auto;
+
+    filter:
+        drop-shadow(
+            0 4px 6px
+            rgba(0, 0, 0, 0.1)
+        );
+
+    transition:
+        transform 0.3s ease;
+}
+
+.forecast-card:hover .forecast-icon {
+    transform: scale(1.08);
+}
